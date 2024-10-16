@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #faf5f5;
+
+}
+
+
+.topnav{
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #ffffff;
+    height: 80px;
+    box-shadow: 0px 4px 12px #333;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+
+}
+
+.topnav .logo{
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+
+}
+
+
+.topnav .logo span{
+    color: gold;
+}
+
+.topnav .right-nav_link {
+                display: flex;
+                gap: 32px;
+}
+
+
+.topnav .right-nav_link a{
+    text-decoration: none;
+    color: #808080;
+}
+
+
+.topnav .right-nav_link a:hover {
+    color: #080808;
+    transition-property: color;
+    transition-delay: 0.3s;
+    transition-duration: 8s;
+}
+
+
+header{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+    height: calc(100vh - 80px);
+
+        }
+
+header .left{
+        flex: 1;
+
+            }
+
+header .left h1 {
+        letter-spacing: 1.5;
+        color: #080808 ;
+
+                }
+
+
+header .left p {
+        line-height: 26px;    
+        color: #808080;
+        margin-bottom: 48px;        
+                }
+
+
+header .right{
+        flex: 1;
+            }
+
+header .right img{
+          width: 100%;  
+                }
+
+
+header .button-container{
+            display: flex;
+            gap: 24px;
+
+                        }
+
+
+header .button-container a{
+            background-color: #080808;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            padding-left: 22px;
+            padding-right: 22px;
+            color: #faf5f5;
+            border-radius: 40px;
+            text-decoration: none;
+                            }
+
+
+header .button-container a:hover{
+            background-color: rgba(0, 0, 0, 0.7);
+                    
+                        }                   
+                   
+
+main .about{
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 400px;
+
+            }
+
+
+.about-content {
+        display: flex;
+        gap: 64px;
+        padding-top: px;
+            }
+
+.about-content .left{
+         flex: 1;
+             }
+
+.about-content .left img{
+        width: 70%;
+        padding-top: 0%;
+
+             }
+
+.about-content .right{
+        flex: 1;
+                }
+
+.about-content .right h3 {
+                font-size: 30px;
+
+                }
+
+.about-content .right p {
+                color: #808080;
+                margin-bottom: 48px;
+                margin-top: 32px;
+                line-height: 24px;
+                }
+
+
+
+.about .button-container a{
+                background-color: #080808;
+                padding-top: 24px;
+                padding-bottom: 24px;
+                padding-left: 22px;
+                padding-right: 22px;
+                color: #faf5f5;
+                border-radius: 40px;
+                text-decoration: none;
+                    }
+                    
+
+.about .button-container a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+            
+                }    
+
+
+.mom-features {
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-top: 40px;
+
+
+            }
+
+
+.mom-features .content {
+            display: flex;
+            gap: 16px;
+            padding-top: 30px;
+            }
+
+
+.mom-features .content .card {
+                width: 23%;
+                background-color: #ffffff;
+                border-radius: 24px;
+                height: fit-content;
+                padding-bottom: 16px;
+            }            
+
+
+.mom-features .content .card img {
+            width: 100%;
+            }    
+            
+            
+.mom-features .content .card h3 {
+                font-size: 16px;
+                padding-left: 12px;
+                padding-right: 12px;
+            }
+            
+            
+.mom-features .content .card p {
+                font-size: 12px;
+                padding-left: 12px;
+                padding-right: 12px;
+                line-height: 18px;
+                margin-top: 16px;
+            }
+
+
+.button-container {
+            display: flex;
+            justify-content: center;
+            padding-top: 32px;
+            margin-bottom: 64px;
+            }
+
+
+
+.mom-features .button-container a{
+    background-color: #080808;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: #faf5f5;
+    border-radius: 40px;
+    text-decoration: none;
+        }
+
+
+.mom-features .button-container a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+            
+                }    
+
+footer {
+    padding: 120px;
+    background-color: #080808;
+        }
+
+
+.footer-area P{
+        text-align: center;
+        color: #ffffff;
+        }
